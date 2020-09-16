@@ -24,16 +24,16 @@
     <div class="form-contents">
         <form action="submit.html">
             <p>Name</p>
-            <input type="text" class="text-input" placeholder="Enter your name"  required>  <br>
+            <label for="username"><input type="text" id="username" class="text-input" placeholder="Enter your name"  required></label>  <br>
 
             <p>Age</p>
-            <input type="text" class="text-input" placeholder="Enter your age" required> <br>
+            <label for="userage"><input type="text" id="userage" class="text-input" placeholder="Enter your age" required> <br></label>
 
             <p>Phone number</p>
-            <input type="tel" class="text-input" maxlength="11" placeholder="Enter your phonenumber"> <br>
+            <label for="userno"><input type="tel" id="userno" class="text-input" maxlength="11" placeholder="Enter your phonenumber"></label> <br>
 
             <p>Email</p>
-            <input type="email" class="text-input" placeholder="Enter your email" required> <br>
+            <label for="useremail"><input type="email" id="useremail" class="text-input" placeholder="Enter your email" required></label> <br>
 
             <p>Do you listen to music?</p>
             <label for="yes"><input id="yes" type="radio" value="yes-response" name="yes-no">Yes</label> <br>
@@ -48,13 +48,13 @@
             <label for="others"><input id="others" type="checkbox" value="othermusic" name="typeofmusic">Others</label> <br>
 
             <p>Who is your favourite artiste?</p>
-            <input type="text" class="text-input" placeholder="Your favourite artiste" required> <br>
+            <label for="favourite-artiste"><input type="text" id="favourite-artiste" class="text-input" placeholder="Your favourite artiste" required></label> <br>
 
             <p>Tell us a little about him/her</p>
             <label for="artiste-details"><textarea name="details" id="artiste-details" cols="30" rows="5"></textarea></label> <br>
 
             <p>Would you mind recommending some of his or her albums for us?</p>
-            <input type="text" class="text-input" placeholder="Thank you!"> <br>
+            <label for="recommendations"><input type="text" id="recommendations" class="text-input" placeholder="Thank you!"></label> <br>
 
             <p>Any comments or suggestions?</p>
             <label for="comments"><textarea name="usercomments" id="comments" cols="30" rows="7"></textarea></label> <br>
