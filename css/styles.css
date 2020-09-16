@@ -1,0 +1,78 @@
+body{
+    background: linear-gradient(180deg, #f5efef, #f5f1da);
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+}
+
+.form-contents{
+    background: linear-gradient(90deg, #00416d, #00416d);
+    width: 40%;
+    margin: auto;
+    text-align: justify;
+    padding: 3%;
+    border-radius: 1%;
+}
+
+h1{
+    font-size: 3rem;
+    color: #00416d;
+}
+
+h2{
+    font-size: 0.8rem;
+    font-style: italic;
+    color: #00416d;
+}
+
+p{
+    color: white;
+    font-size: 1.1rem;
+}
+
+.form-button{
+    font-size: 1rem;
+    font-weight: bold;
+    padding: 1% 45%;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.form-button:hover{
+    background: linear-gradient(90deg, #00416d, #00416d);
+    color: white;
+}
+
+.text-input{
+    padding: 1%;
+    border-radius: 1%;
+    size: 20px;
+    width: 90%;
+}
+
+.submit-response{
+    color: #00416d;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/*responsiveness*/
+@media (max-width: 450px){
+    .form-contents{
+        width: 90%;
+    }
+
+    h1{
+        font-size: 2rem;
+    }
+    
+    p{
+        font-size: 1rem;
+    }
+
+    .form-button{
+        font-size: 1rem;
+        padding: 1% 40%;
+    }
+    
+    
+}

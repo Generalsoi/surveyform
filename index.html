@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta name="description" 
+          content="A survey form........">
+    <!--title-->
+    <title>A survey form</title>
+    <!--css link-->
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+    
+  </head>
+
+  <body>
+    
+    <header>
+        <h1>Music Lovers survey form</h1>
+        <h2>Please fill in your details appropriately and provide answers as required.
+            Be rest assured, your data is safe with us. 
+        </h2>
+    </header>
+    
+    <div class="form-contents">
+        <form action="submit.html">
+            <p>Name</p>
+            <input type="text" class="text-input" placeholder="Enter your name"  required>  <br>
+
+            <p>Age</p>
+            <input type="text" class="text-input" placeholder="Enter your age" required> <br>
+
+            <p>Phone number</p>
+            <input type="tel" class="text-input" maxlength="11" placeholder="Enter your phonenumber"> <br>
+
+            <p>Email</p>
+            <input type="email" class="text-input" placeholder="Enter your email" required> <br>
+
+            <p>Do you listen to music?</p>
+            <label for="yes"><input id="yes" type="radio" value="yes-response" name="yes-no">Yes</label> <br>
+            <label for="no"><input id="no" type="radio" value="no-response" name="yes-no">No</label> <br>
+
+            <p>What type of music do you listen to?(check all that apply)</p>
+            <label for="rap"><input id="rap" type="checkbox" value="rapmusic" name="typeofmusic">Rap</label> <br>
+            <label for="rnb"><input id="rnb" type="checkbox" value="rnbmusic" name="typeofmusic">RnB</label> <br>
+            <label for="hiphop"><input id="hiphop" type="checkbox" value="hiphopmusic" name="typeofmusic">HipHop</label> <br>
+            <label for="afro"><input id="afro" type="checkbox" value="afromusic" name="typeofmusic">Afro</label> <br>
+            <label for="rock"><input id="rock" type="checkbox" value="rockmusic" name="typeofmusic">Rock</label> <br>
+            <label for="others"><input id="others" type="checkbox" value="othermusic" name="typeofmusic">Others</label> <br>
+
+            <p>Who is your favourite artiste?</p>
+            <input type="text" class="text-input" placeholder="Your favourite artiste" required> <br>
+
+            <p>Tell us a little about him/her</p>
+            <label for="artiste-details"><textarea name="details" id="artiste-details" cols="30" rows="5"></textarea></label> <br>
+
+            <p>Would you mind recommending some of his or her albums for us?</p>
+            <input type="text" class="text-input" placeholder="Thank you!"> <br>
+
+            <p>Any comments or suggestions?</p>
+            <label for="comments"><textarea name="usercomments" id="comments" cols="30" rows="7"></textarea></label> <br>
+
+            <p>Thank you very much</p>
+
+            <button class="form-button" type="submit">Submit</button>
+        </form>
+    </div>
+
+  </body>
+</html>
